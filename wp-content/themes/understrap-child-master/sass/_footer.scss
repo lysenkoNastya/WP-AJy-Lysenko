@@ -1,0 +1,80 @@
+
+$header-color: #2c3e50;
+$brand-color: #ff4848;
+$header-menu-color: #d5d8dc;
+$content-color: #fff;
+$footer-bg-logo: #17212a;
+
+.clients-section {
+  padding: 65px 0 100px;
+  background-color: $brand-color;
+}
+
+.widget_text {
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+  color: $content-color;
+}
+
+.contact-us-section {
+  padding: 115px 0 20px;
+  background-image: url(http://localhost/wp-ajy/wp-content/uploads/2018/03/contact-bg-image.png);
+}
+
+.contact-us-text {
+  color: $content-color;
+  font-size: 2.5rem;
+}
+
+.textwidget {
+  margin-top: 40px;
+  font-size: 1rem;
+}
+
+.footer-contact-us-item {
+  color: $content-color;
+}
+
+.phone {
+  &:before {
+    margin-right: 10px;
+    font-family: FontAwesome;
+    content: "\f095";
+    font-size: 1.5rem;
+  }
+}
+
+.address {
+  &:before {
+    margin-right: 10px;
+    font-family: FontAwesome;
+    content: "\f041";
+    font-size: 1.5rem;
+  }
+}
+
+.form-item {
+  margin-bottom: 20px;
+}
+
+.btn-outline-primary, .wpcf7 input[type=submit] {
+  padding: 15px 50px;
+  border: none;
+  text-transform: uppercase;
+  background-color: $brand-color;
+  color: $content-color;
+}
+
+.footer-logo-section {
+  padding: 55px 0;
+  background-color: $footer-bg-logo;
+}
+
+.footer-copyright-section {
+  padding: 30px 0;
+  background-color: $brand-color;
+
+  .copyright-text {
+    color: $content-color;
+  }
+}

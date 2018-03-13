@@ -1,0 +1,57 @@
+
+$header-color: #2c3e50;
+$brand-color: #ff4848;
+$header-menu-color: #d5d8dc;
+
+
+.container {
+  max-width: 1150px;
+}
+
+.main-bg {
+  background-color: $header-color;
+}
+
+.main-menu {
+  padding: 20px 0;
+
+    .main-menu-link,
+    .nav-link {
+      padding: 10px;
+      text-transform: uppercase;
+      display: inline-block;
+      color: $header-menu-color;
+      font-weight: 300;
+      font-size: 1rem;
+
+      &:hover,
+      &:active,
+      &.active{
+        color: $brand-color;
+      }
+
+      @media (min-width: 992px) {
+        margin-left: 5px;
+        font-size: 1.3rem;
+      }
+
+
+    }
+
+    .main-menu-link,
+    .main-menu-link,
+    .contacts-info-item-phone,
+    .info-list-item-link:link {
+      font-size: 0.8rem;
+
+      @media (min-width: 768px) {
+        font-size: 1rem;
+      }
+    }
+
+    .menu-item {
+      display: inline-block;
+    }
+  }
+
+

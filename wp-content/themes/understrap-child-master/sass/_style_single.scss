@@ -1,0 +1,47 @@
+$title-posts: #fdc5a3;
+$header-menu-color: #d5d8dc;
+
+.title-posts-block {
+  margin: 25px 0;
+  color: $title-posts;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.text-posts .single-text-block {
+  margin: 30px 0 20px;
+  .single-list-item-title:link,
+  .single-list-item-title:visited,
+  a:link.single-list-item-title {
+    font-size: 1.5rem;
+    color: $title-posts;
+  }
+}
+
+.list-item-text-block {
+  margin-bottom: 30px;
+}
+
+.single-posts {
+  margin-bottom: 20px;
+}
+
+.list-item-text-block p {
+  font-size: .9rem;
+}
+
+.single-main-content {
+  padding: 10px;
+  border: 1px solid $header-menu-color;
+}
+
+.navigation {
+  margin: 0;
+  margin-top: 75px;
+  text-transform: uppercase;
+}
+
+@import "header";
+@import "footer";
