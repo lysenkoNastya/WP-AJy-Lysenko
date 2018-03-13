@@ -78,7 +78,7 @@ add_action( 'widgets_init', 'remove_widgets', 11 );
 require_once('inc/widgets.php');
 
 //Include child-theme customizer.php
-require_once('inc/customizer.php ');
+require_once('inc/customizer.php');
 
 //Include child-theme cpt.php
 require_once('inc/cpt.php');
